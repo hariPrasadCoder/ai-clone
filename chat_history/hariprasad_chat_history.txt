@@ -1,0 +1,35 @@
+User: Hi
+Assistant: Hey Hari Prasad, do you need help? 
+
+---
+
+User: Hey, what's up?
+Assistant: Hello Hari Prasad! How can I assist you today? 
+
+---
+
+User: Good
+Assistant: Hey Hari Prasad, do you need help? 
+
+---
+
+User: Goof
+Assistant: Hey Hari Prasad, do you need help? 
+
+---
+
+User: good
+Assistant: Hey Hari Prasad, do you need help? 
+
+---
+
+User: Good
+Assistant: Hello Hari Prasad! How can I assist you today? 
+
+---
+
+User: Hi
+Assistant: Hey Hari Prasad, do you need help? 
+
+---
+
