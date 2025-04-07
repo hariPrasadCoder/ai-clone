@@ -8,13 +8,19 @@ import boto3
 from langchain.llms.bedrock import Bedrock
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
+from langchain_core.messages import HumanMessage, SystemMessage
 import json
 from dotenv import load_dotenv
+from pinecone import Pinecone, ServerlessSpec
 
 load_dotenv()
+pinecone_api = os.getenv("PINECONE_API")
 
 session = boto3.Session(profile_name="personal", region_name="us-east-1")
 bedrock = boto3.client("bedrock-runtime")
+pc = Pinecone(api_key=pinecone_api)
+index_name = "document-store"
+pinecone_index = pc.Index(index_name)
 
 # Setup page configuration
 st.set_page_config(
@@ -89,29 +95,77 @@ def llama2_model():
     )
     return llm
 
-def call_langchain_with_chat_memory(chat_history, user_input):
-    # Initialize LLM and memory
+# def call_langchain_with_chat_memory(chat_history, user_input):
+#     # Initialize LLM and memory
+#     llm = llama2_model()
+#     memory = ConversationBufferMemory(return_messages=True)
+    
+#     # Load previous chat history
+#     for message in chat_history:
+#         if message["role"] == "user":
+#             memory.chat_memory.add_user_message(message["content"])
+#         elif message["role"] == "assistant":
+#             memory.chat_memory.add_ai_message(message["content"])
+    
+#     # Create conversation chain
+#     conversation = ConversationChain(
+#         llm=llm,
+#         memory=memory,
+#         verbose=False
+#     )
+    
+#     # Generate response
+#     response = conversation.predict(input=user_input)
+    
+#     # Stream response word by word
+#     for word in response.split():
+#         yield word + " "
+#         time.sleep(0.05)
+
+def call_langchain_with_chat_memory(chat_history, user_input, username):
+    # 1. Generate embedding for user input
+    response = bedrock.invoke_model(
+        body=json.dumps({"inputText": user_input}),
+        modelId="amazon.titan-embed-text-v2:0",
+        contentType="application/json"
+    )
+    input_embedding = json.loads(response['body'].read()).get("embedding")
+    
+    # 2. Query Pinecone with username filter
+    results = pinecone_index.query(
+        vector=input_embedding,
+        top_k=3,
+        include_metadata=True,
+        filter={
+            "user_id": {"$eq": username},
+            "$and": [{"source": {"$exists": True}}]
+        }
+    )
+    
+    # 3. Build context from matches
+    context = "\n".join([match.metadata["text"] for match in results.matches])
+    
+    # 4. Initialize LLM with context-aware prompt
     llm = llama2_model()
     memory = ConversationBufferMemory(return_messages=True)
     
-    # Load previous chat history
+    # Load history with context
+    memory.chat_memory.add_message(SystemMessage(content=f"Relevant context: {context}"))
     for message in chat_history:
         if message["role"] == "user":
             memory.chat_memory.add_user_message(message["content"])
-        elif message["role"] == "assistant":
+        else:
             memory.chat_memory.add_ai_message(message["content"])
     
-    # Create conversation chain
+    # 5. Create conversation chain
     conversation = ConversationChain(
         llm=llm,
         memory=memory,
         verbose=False
     )
     
-    # Generate response
+    # 6. Generate and stream response
     response = conversation.predict(input=user_input)
-    
-    # Stream response word by word
     for word in response.split():
         yield word + " "
         time.sleep(0.05)
@@ -166,7 +220,7 @@ if creator_username:
         
             # Display assistant response in chat message container
             with st.chat_message("assistant"):
-                response = st.write_stream(call_langchain_with_chat_memory(st.session_state.messages, prompt))
+                response = st.write_stream(call_langchain_with_chat_memory(st.session_state.messages, prompt, creator_username))
             # Add assistant response to chat history
             st.session_state.messages.append({"role": "assistant", "content": response})
             

@@ -93,3 +93,83 @@ Assistant: Hi! I'm Hari's digital clone. How can I help you today?
 
 ---
 
+User: Hey
+Assistant: Hi! I'm Hari's digital clone. How can I help you today? I noticed Hari mentioned he's facing a challenge of having to leave the U.S. by the end of 2025. If you're facing a similar challenge or something else, feel free to share, and I'll try to find a website or tool that can help solve it. 
+
+---
+
+User: How many SQL problems per day?
+Assistant: Hari mentioned doing 10 SQL problems a day. He said that if you do 10 problems a day, in 25 days, you'll be an SQL expert! 
+
+---
+
+User: Do you have any AI news to share?
+Assistant: Yes, I do! Hari mentioned a few updates in his post. For instance, Claude for Education is now live at Northeastern, LSE, and more institutions. It's a ChatGPT Edu rival that comes with a "Learning Mode" to encourage students to think critically, not just copy. Additionally, Meta's AI Chief, Joelle Pineau, is leaving the company in May. She was a champion of open-source and ethical AI, and her exit will be a big leadership role to fill. Lastly, Nvidia's stock has been fluctuating due to the U.S. dropping export limits on advanced AI chips, which will start on May 15. 
+
+---
+
+User: Where's Hari working?
+Assistant: Hari mentioned that he worked with Take-Two Interactive for 3 years. 
+
+---
+
+User: Hey
+Assistant: Hi! I'm Hari's digital clone. How can I help you today? 
+
+---
+
+User: Did Hari get H1b this time?
+Assistant: I don't have that information. Our conversation was about preparing for data science roles, using new technologies, and job hunting strategies. He didn't mention anything about his H1B status. 
+
+---
+
+User: Did he win the lottery?
+Assistant: I don't have that information. Our conversation was about preparing for data science roles, using new technologies, and job hunting strategies. He didn't mention anything about winning the lottery. 
+
+---
+
+User: What is MyRealProduct?
+Assistant: MyRealProduct is a program that helps people build a real product from scratch in just 4 weeks. It's a cohort-based program where participants team up with mentors and other builders to go from idea to MVP to deployment to launch. The program aims to make product building and AI less intimidating and more doable. 
+
+---
+
+User: Give me a project idea
+Assistant: How about a job search assistant tool? It could help users identify the most in-demand skills in the industry, provide resources to learn those skills, and even assist with resume building and job application tracking. This project could be especially helpful for international students who are struggling to land their first tech job. 
+
+---
+
+User: Who is Hari
+Assistant: Hari Prasad Renganathan is the person I was conversing with earlier. He's an expert in data science and AI, and he's been kind enough to share his knowledge and experience with others, including me! He's also active on LinkedIn, where he shares updates and insights about AI and its applications. 
+
+---
+
+User: Is he an international student?
+Assistant: Yes, Hari Prasad is an international student. He's a Columbia Alum and has shared his experiences and insights about navigating the challenges of being an international student, including visa rules, job search stress, and cultural differences. 
+
+---
+
+User: Hey. how can I join your product building cohort?
+Assistant: Hi! I'm Hari's digital clone. To join the product building cohort, you can comment down your email, and I'll send you more details on how to join this April cohort. Alternatively, you can check out the link https://myrealproduct.com/ to learn more about the program. We've had great success in the past, with hundreds of real users benefiting from the products built during the cohort. 
+
+---
+
+User: How much is Myrealproduct?
+Assistant: I don't know the exact pricing of MyRealProduct, but I can suggest checking out the website https://myrealproduct.com/ for more information on the program and its costs. Additionally, you can reach out to me, and I'll try to get that information for you. 
+
+---
+
+User: How can i reach out to you?
+Assistant: You can reach out to me by commenting down your question or concern, and I'll respond as soon as possible. You can also try sending a direct message on LinkedIn, and I'll do my best to get back to you. 
+
+---
+
+User: Give me 5 Data Science project ideas
+Assistant: Here are 5 Data Science project ideas for you: 1. **Predicting Stock Prices**: Create a model that can predict stock prices based on historical data. You can use libraries like pandas, NumPy, and scikit-learn to build and train your model. 2. **Image Classification**: Build a model that can classify images into different categories. You can use libraries like TensorFlow, Keras, and OpenCV to build and train your model. 3. **Natural Language Processing (NLP) Chatbot**: Create a chatbot that can understand and respond to user queries. You can use libraries like NLTK, spaCy, and scikit-learn to build and train your model. 4. **Recommendation System**: Build a model that can recommend products or services based on user behavior and preferences. You can use libraries like pandas, NumPy, and scikit-learn to build and train your model. 5. **Predicting Customer Churn**: Create a model that can predict customer churn based on historical data. You can use libraries like pandas, NumPy, and scikit-learn to build and train your model. Remember, the key to building a great Data Science project is to choose a topic that interests you and to have a clear goal in mind. Good luck! 
+
+---
+
+User: What is Airflow
+Assistant: Hi! Airflow is an open-source platform used to programmatically schedule and monitor workflows, also known as DAGs (Directed Acyclic Graphs). It's primarily used for data engineering, data pipelines, and ETL (Extract, Transform, Load) processes. Airflow allows users to create, schedule, and monitor tasks, making it easier to manage complex workflows. It's often used in data-intensive applications and is particularly popular among data engineers and data scientists. Would you like to know more about how Airflow can be used in data pipelines? 
+
+---
+

@@ -1,0 +1,1411 @@
+The only SQL guide you'll ever need!
+
+𝐓𝐨𝐩 250+ 𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝐒𝐐𝐋 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 & 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬!
+
+Woahhh...
+
+Imagine doing just 10 problems a day! In 25 days, you're an SQL expert.
+
+What are you waiting for?
+
+This guide:
+- Covers Easy, Medium & Hard questions
+- Includes real-world SQL scenarios asked in interviews
+- Helps you think like a pro and optimize queries
+
+Huge credit to Kavitha for putting this list together, it’s going to help so many folks out there!
+
+♻️ Reshare this post so others can benefit too!
+
+🏆 Follow me (Hari Prasad) for more!
+
+AI's been BUSY this week.
+
+Nvidia’s stressed. Claude’s in school. And Meta just lost a big brain. 👇
+
+1️⃣ 𝐍𝐯𝐢𝐝𝐢𝐚 & 𝐓𝐡𝐞 𝐀𝐈 𝐃𝐢𝐟𝐟𝐮𝐬𝐢𝐨𝐧 𝐑𝐮𝐥𝐞
+- U.S. drops export limits on advanced AI chips (starting May 15)
+- Countries are tiered: some get chips, others (like China) get blocked
+- Nvidia's stock? Rollercoaster.
+- 50% of their revenue is from outside the U.S.; ouch.
+- They’re now doubling down on Tier 1 markets and R&D.
+
+2️⃣ 𝐀𝐧𝐭𝐡𝐫𝐨𝐩𝐢𝐜’𝐬 𝐂𝐥𝐚𝐮𝐝𝐞 𝐠𝐨𝐞𝐬 𝐭𝐨 𝐜𝐨𝐥𝐥𝐞𝐠𝐞
+- Claude for Education is here - a ChatGPT Edu rival
+- Comes with “Learning Mode” → prompts students to think, not just copy
+- Helps with papers, math, grading, and admin work
+- Already live at Northeastern, LSE, and more
+
+3️⃣ 𝐌𝐞𝐭𝐚’𝐬 𝐀𝐈 𝐂𝐡𝐢𝐞𝐟 𝐬𝐭𝐞𝐩𝐬 𝐝𝐨𝐰𝐧
+- Joelle Pineau, who led FAIR and launched LLaMA, is leaving Meta in May
+- She championed open-source and ethical AI
+- Meta is investing $65B in AI infra this year (yep, billion)
+- Her exit = big leadership shoes to fill
+
+Enjoying this roundup?
+ I share AI news, breakdowns, and real-world applications every week.
+ 👉 Subscribe to my newsletter here: https://lnkd.in/eveg5apm
+
+Want posts like this every weekend? Let me know in the comments 👇
+
+🔁 Reshare this to educate your community on what's happening in the AI world
+
+Let’s play a game!
+
+Tell me one problem or challenge you're facing today.
+
+ It could be:
+ – Struggling to get a job
+ – Struggling to get up in the morning
+ – Finding it hard to learn something new
+
+Be specific! I’ll try to find a website or tool that can help solve it.
+
+No promotions. No sponsored tools. No BS.
+
+I just want to explore the real problems we're facing today and see how well the AI/SaaS world is solving them.
+
+Who knows, maybe someone will find their next project idea in the comments below.
+
+Ready? 👇 I'm all ears.
+
+They say, "3rd time's a charm," but not for me.
+
+- 4 years of my early 20s
+- 3 years with Take-Two Interactive
+- An Ivy League degree @Columbia University
+- My entrepreneurial journey
+
+All - done in the land of THE America - are coming to an END.
+
+I have to leave the U.S. by the end of 2025.
+
+It's been an incredible journey. But this just means America is a chapter in my life, not the end of my story.
+
+Like every international student,
+- this is the place that gave me a grad degree,
+- this is the place that gave me my first internship,
+- this is the place that gave me my first job,
+- this is the place where I earned my first dollar from my own startup,
+- this is the place where my creator journey began.
+
+It’s a hard place to forget. But now, it’s time to face reality.
+
+If you're in the same situation as me, don't worry - we’ll figure it out. And congrats to those who got their visa picked this time!
+
+- Time for a new chapter.
+- Time for a new place.
+- Time for a new game.
+Soon...
+
+Until then, let's keep exploring. :)
+
+Follow me Hari Prasad for more international student tips & tricks!
+
+You are NOT a true Data Scientist if you don't understand these signature phrases:
+
+- "Triple Bam"
+
+- "Don't worry about it if you don't understand"
+
+- "My name is Krish Naik. Welcome to my Youtube channel"
+
+
+You wanna add anything more to the list? 👇
+
+
+Follow me Hari for daily Data Science tips 🙌
+
+𝐇𝐨𝐰 𝐭𝐨 𝐛𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐓𝐨𝐩 1% 𝐨𝐟 𝐉𝐨𝐛 𝐒𝐞𝐞𝐤𝐞𝐫𝐬 𝐢𝐧 2025
+
+Most people are stuck in an endless cycle of applying, waiting, and hoping. 
+
+The ones who break out of this loop? They play the game differently.
+
+Here’s how you can do the same:
+
+‣ 𝐓𝐫𝐞𝐚𝐭 𝐲𝐨𝐮𝐫 𝐣𝐨𝐛 𝐬𝐞𝐚𝐫𝐜𝐡 𝐥𝐢𝐤𝐞 𝐚 𝐩𝐫𝐨𝐣𝐞𝐜𝐭:
+Set a clear deadline and work backward. Aimless applying won’t cut it.
+
+‣ 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐲 3 𝐮𝐧𝐟𝐚𝐢𝐫 𝐚𝐝𝐯𝐚𝐧𝐭𝐚𝐠𝐞𝐬:
+These could be rare skills, unique experiences, or a strong personal brand. Double down on them.
+
+‣ 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞 𝐟𝐨𝐫 𝐯𝐢𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲, 𝐧𝐨𝐭 𝐣𝐮𝐬𝐭 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬:
+Engage with hiring managers, post insights, and get on people’s radar. You want them to remember you before you apply.
+
+‣ 𝐋𝐞𝐚𝐫𝐧 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭:
+Find 5 people who recently landed the job you want. Study their LinkedIn, portfolios, and interview strategies. Reverse-engineer their success.
+
+‣ 𝐌𝐚𝐤𝐞 𝐝𝐢𝐫𝐞𝐜𝐭 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬:
+Instead of cold applying, get warm introductions. Even one strong referral can be a game-changer.
+
+‣ 𝐈𝐭𝐞𝐫𝐚𝐭𝐞 & 𝐢𝐦𝐩𝐫𝐨𝐯𝐞:
+Every rejection is feedback. Adjust your approach, refine your messaging, and keep moving forward.
+
+And the most underrated strategy? 
+
+𝐖𝐨𝐫𝐤 𝐨𝐧 𝐲𝐨𝐮𝐫 𝐦𝐢𝐧𝐝𝐬𝐞𝐭. 
+Job search fatigue is real, but those who stay focused and resilient always come out on top.
+
+The real competition isn’t against others - it's against your past self. 
+
+Follow me Hari Prasad for more tips & tricks in your job search.
+🔁 Reshare this post to help more people. Let's grow together!
+
+My LinkedIn profile says I’m working as a Data Scientist in the US and living my dream life.
+
+But, it’s all a LIE!
+
+Because my LinkedIn doesn’t tell you that:
+
+– There was a time when I was jobless and burdened with over $80,000 in student loan debt.
+
+– There was a time when I had to work two part-time jobs just to afford food and daily expenses.
+
+– There was a time when I missed major festivals, weddings, birthdays, and even funerals back home.
+
+– There was a time when I spent mornings moving furniture at a part-time job and came home exhausted, only to stay up late job-hunting.
+
+Life as an international student is often full of hard work, anxiety, and unexpected struggles.
+
+If you ask me: Would I do it all again?
+
+ABSOLUTELY!
+
+It has taught me lessons I’ll never forget.
+It has given me exposure I wouldn’t have had otherwise.
+
+Dedicating this to all international students - Cheers to your resilience and determination! 🥂
+
+You can ignore SQL, but SQL won’t ignore you.
+
+-----------------
+
+SELECT EssentialSkill, COUNT(*) AS skill_count 
+
+FROM DataCareers 
+
+WHERE Role IN ('Data Analyst', 'Data Scientist', 'Data Engineer') 
+
+GROUP BY EssentialSkill 
+
+ORDER BY skill_count 
+
+DESC LIMIT 1;
+
+-----------------
+𝐎𝐮𝐭𝐩𝐮𝐭:
+
+SQL
+
+-----------------
+
+If I had to stand out in the Data field and 𝐠𝐞𝐭 𝐚 𝐣𝐨𝐛 𝐢𝐧 2025, this is what I would do:
+
+I would pick a niche and be "really" good at it.
+
+That’s it!
+
+𝐇𝐨𝐰 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐚𝐥𝐥𝐲 𝐠𝐨𝐨𝐝 𝐚𝐭 𝐢𝐭:
+- Watch tutorials
+- Read blogs
+- Do projects (from scratch)
+- Read books about it
+- Attend conferences on the niche
+- Talk to experts in that niche
+- Write your own blog/LinkedIn posts
+- Just fall in love with that niche (the job will come to you!)
+
+𝐇𝐞𝐫𝐞 𝐚𝐫𝐞 𝐚 𝐟𝐞𝐰 𝐧𝐢𝐜𝐡𝐞𝐬 𝐲𝐨𝐮 𝐜𝐚𝐧 𝐩𝐢𝐜𝐤 𝐟𝐫𝐨𝐦:
+1️⃣ 𝐓𝐞𝐜𝐡-𝐛𝐚𝐬𝐞𝐝 𝐧𝐢𝐜𝐡𝐞𝐬:
+- NLP
+- Computer Vision
+- Time Series
+- Generative AI
+- Reinforcement Learning
+- Recommender Systems
+- MLOps & Model Deployment
+- AI for Security
+
+2️⃣ 𝐒𝐞𝐜𝐭𝐨𝐫-𝐛𝐚𝐬𝐞𝐝 𝐧𝐢𝐜𝐡𝐞𝐬:
+- Healthcare
+- Finance
+- Marketing
+- Sales
+- Supply Chain & Logistics
+- Sports Analytics
+- Retail & E-commerce
+- Government & Policy Analytics
+- Gaming & Entertainment
+
+I mean, the list goes on! Just pick whatever you like the most. If you don’t know yet, explore until you find one that clicks.
+
+Take the first step here: 𝐂𝐨𝐦𝐦𝐞𝐧𝐭 𝐛𝐞𝐥𝐨𝐰 𝐰𝐡𝐢𝐜𝐡 𝐧𝐢𝐜𝐡𝐞 𝐲𝐨𝐮’𝐫𝐞 𝐠𝐨𝐢𝐧𝐠 𝐭𝐨 𝐩𝐢𝐜𝐤! 👇 It’s totally fine if you change it later. Just Start!
+
+🔁 Reshare this with your community! Let’s grow together.
+Follow me Hari Prasad for more Data & AI tips & tricks
+
+"I like AI… I'm an AI expert…"
+
+Oh really?
+
+"Yes! I know how to use ChatGPT."
+👀
+
+If this is you, it's time to change that.
+
+Because real AI expertise isn’t just about prompting - it’s about understanding how AI works under the hood.
+
+I found an amazing free course by Hugging Face that covers everything you need to actually learn NLP (not just talk about it).
+
+Here’s what’s inside:
+
+1. Transformer Models
+- What NLP really is
+- How Transformers work (encoders, decoders, sequence-to-sequence)
+- The real limitations & biases
+
+2. Using 🤗 Transformers
+- Behind the magic of the "pipeline"
+- Models, tokenizers, and decoding sequences
+
+3. Fine-Tuning a Pretrained Model
+- Processing & preparing data
+- Full training workflows
+
+4. Sharing Models & Tokenizers
+- Using & contributing to the Hugging Face Hub
+- Building model cards
+
+5. The Datasets Library
+- Handling big data
+- Creating custom datasets
+
+6. The Tokenizers Library
+- Training new tokenizers
+- Byte-Pair Encoding, WordPiece, Unigram
+
+This is the course if you actually want to build AI - not just use it.
+
+👉 Check it out here: https://lnkd.in/enSWf3em
+
+Question for you: Are you ready to move beyond ChatGPT prompts? 
+
+If you want more such resources, follow me Hari Prasad (I promise that you won't miss out on the AI race)
+
+🔁 Don't be selfish! Share it with your friends. Let's grow together.
+
+I watched hundreds of tutorials online.
+I did every project possible.
+I learned every skill out there—SQL, Python, Tableau...
+
+Still, I don’t get interviews.
+
+In the data world, it’s not about the number of things you do. It’s about the quality of your work.
+
+Quality over Quantity (any day).
+
+That’s why we’re bringing you a dope live podcast packed with tips and tricks to help you build a solid data profile.
+
+✅ Learn our strategies
+✅ Interact with us
+✅ Ask your questions
+✅ Best part? It’s completely free—just invest your time.
+
+Our guests need no introduction, but here’s a quick one:
+
+Sandeep – Senior Data Analyst | 20k+ YouTube | Top Data Analytics Voice
+Venkata Naga Sai – Lead Data Analyst | Featured on Times Square, Favikon, Fox, NBC | 130k+ LinkedIn
+Sohan Sethi – Business Analyst II | Co-founded 2 Startups by 20 | 75k+ LinkedIn
+Hari Prasad (myself) – Data Scientist | 30k+ LinkedIn | Ivy League Grad
+
+📅 Mark your calendars: March 23 at 11 AM EST / 8 AM PST / 8:30 PM IST
+
+🔗 RSVP here: https://lu.ma/czp9ty7w
+
+See you soon! Reshare this to spread the word and help others.
+
+Your Python project is dead, just sitting in your Jupyter notebooks!
+
+That's right! I'll say it again.
+
+You did dashboarding?
+You trained cutting-edge ML models?
+You got 99% accuracy?
+
+No one cares - unless people can actually use it.
+
+Here are 10 ways you can deploy your Python projects:
+🔹 Flask/FastAPI + Gunicorn + Nginx – Host your API on a VPS like AWS, DigitalOcean, or Linode.
+🔸 Docker + Kubernetes – Containerize your app and deploy it with orchestration.
+🔹 AWS Lambda + API Gateway – Serverless deployment for lightweight functions.
+🔸 Heroku – Simple and free-tier-friendly for small projects.
+🔹 Google Cloud Run – Deploy containerized apps without managing servers.
+🔸 Streamlit – Deploy interactive Python apps quickly.
+🔹 PyInstaller – Package your script into an executable for local use.
+🔸 Azure Functions – Serverless execution on Microsoft Azure.
+🔹 GitHub Actions + Cloudflare Pages – Automate deployments for static sites or APIs.
+🔸 Raspberry Pi – Deploy Python scripts for IoT and embedded applications.
+
+Don't stop at your Jupyter notebook project - there's no excuse.
+
+Don't be selfish. 
+♻️ Share this post with your friends and community to motivate them.
+
+P.S.: If you need help building end-to-end AI products, join the 4-week workshop here → https://myrealproduct.com (Deadline: today!)
+
+To get a job, we need experience. But to get experience, we need a job.
+
+The ultimate chicken-and-egg problem—except with resumes.
+
+I once saw a job posting asking for 10 years of experience in Gen AI (which barely existed that long ago) and 5 years of experience for a junior Data Analyst role. Make it make sense!
+
+If you’re stuck in this loop, the only way out is to stand out.
+
+As an international student, I know how tough it is to land your first tech job without experience.
+
+𝐇𝐞𝐫𝐞'𝐬 𝐚 𝐛𝐞𝐭𝐭𝐞𝐫 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧: Don’t just build projects—build products.
+
+𝐇𝐞𝐫𝐞'𝐬 𝐭𝐡𝐞 𝐩𝐥𝐚𝐧:
+✅ Work in small groups (no more solo Titanic projects)
+✅ Build something real that people can actually use
+
+If you’re ready to break out of the experience loop and create something that sets you apart, sign up here for the April workshop here: https://myrealproduct.com
+
+I know how it feels 
+- watching a hundred tutorials, 
+- doing every project, 
+- learning SQL, Python, Tableau… 
+- and still no interviews. 
+
+Frustrating, right?
+
+The thing is, in data, it’s not about doing more - it’s about doing it right. 
+
+Quality >>> quantity, any day.
+
+That’s why we’re doing a live podcast to break it all down. No fluff, just real, actionable strategies to build a solid data profile. 
+
+And the best part? It’s completely free - just your time.
+
+We’ve got some insane guests lined up:
+Sandeep – Senior Data Analyst | 20k+ YouTube | Top Data Analytics Voice
+Venkata – Lead Data Analyst | Featured on Times Square, Favikon, Fox, NBC | 130k+ LinkedIn
+Sohan Sethi – Business Analyst II | Co-founded 2 Startups by 20 | 75k+ LinkedIn
+Hari Prasad (me) – Data Scientist | 30k+ LinkedIn | Ivy League Grad
+
+We’re going live March 23 at 11 AM EST / 8 AM PST / 8:30 PM IST.
+
+Here’s the RSVP link: https://lu.ma/czp9ty7w
+
+Would love to have you there. Bring your questions, let’s make it fun! And hey, if you know someone struggling with their data job search, share this with them too.
+
+See you soon!
+
+Don't take my word! Hear from one of MyRealProduct's alumni.
+
+I didn't bribe him to write this. 👀
+
+If you want to build a real product from scratch in just 4 weeks, our next batch is closing this weekend. Don't miss out — https://myrealproduct.com/
+
+Time to flex your own product during interviews!
+
+🚀 Ever thought you could build a full-fledged AI product in just 4 weeks — while juggling a job?
+Sounds wild, right? I thought so too — but here we are.
+
+As part of the MyRealProduct Spring Cohort 2025, I teamed up with an incredible group of builders and mentors to go from:
+ 💡 Idea → 🚧 MVP → 🚀 Deployment → 🛍️ Launch — all in just 4 weeks.
+
+🎉 Introducing NutriScan AI – your AI-powered personalized grocery shopping assistant that helps you find the right products and offers safe ones based on your health conditions, food allergies, and dietary preferences.
+ No more label confusion. No more guesswork. Just smart, safe, and personalized food choices.
+🏪 Enter any grocery store → 📱 Scan a barcode → Get instant safety and nutrition insights → Build your personalized food product log.
+
+📱 Scan. 🔍 Analyze. 🛒 Shop smarter. See NutriScan AI in action.
+ 👉 Watch the demo: https://lnkd.in/efbExJud 
+🔗 Join our journey here — https://lnkd.in/exkeCjWE 
+
+💭 Everyone builds projects.
+ But what excited me most about this cohort was the opportunity to build something truly useful — a product that can actually bring real value to real users.
+Despite all of us juggling work, life, and everything in between, me and my team members managed to collaborate, brainstorm, and take ownership of every task — from ideation to delivery.
+We pushed boundaries and made it happen — together. 💪
+
+🙏 I’m beyond grateful to my amazing team:
+ Jane Downer, Praveena Suresh, Siddhant Nijhawan, Bringesh Chowdavarapu
+ And to our mentors: Hari Prasad Renganathan, Mark Eltsefon, Sohan Sethi, and Venkata Naga Sai Kumar Bysani — your guidance was instrumental.
+
+A special thanks to Hari — your constant support, round-the-clock availability, and unwavering encouragement played a huge role in making this happen. Couldn't have asked for a better guide!
+
+30,000 people have decided to follow me on LinkedIn. Wild. Never thought I'd say that.
+
+When I started posting, I had no idea what I was doing. Some posts flopped, some did okay, and a few (somehow) went viral. 
+
+But through it all, I kept one rule: 
+Share honestly - whether it’s wins, failures, or just funny takes on job hunting & learning AI.
+
+This number isn't just mine. It’s because of all of you—people who engage, comment, share their stories, and sometimes even argue in the comments (I see you 😆). 
+
+I’ve learned just as much from you as you (hopefully) have from me.
+
+So, tell me - what’s been your favorite post so far? 
+Or if you're new here, what do you want to see more of?
+
+From Idea to AI Product in 4 Weeks – Watch It Happen LIVE!
+
+4 weeks ago, a few ambitious teams started with just an idea. Today, they have fully functional AI products - ready to be showcased! 
+
+Building an AI product isn’t just about coding. It’s about:
+ ✅ Validating ideas that actually solve problems
+ ✅ Navigating AI's strengths and limitations
+ ✅ Learning how to build, iterate, and ship fast
+
+Now, you get to see their journey in action! Whether you're an AI enthusiast, a builder, or someone looking for inspiration, this is your chance to:
+ 🔹 Explore real-world AI innovations
+ 🔹 Get fresh ideas for your next AI project
+ 🔹 Learn from teams that built AI products in just 4 weeks
+
+📅 March 22nd - 10am EST | 7am PST | 7:30pm IST
+
+This is a rare opportunity to get motivation & ideas (I generally don't say this).
+
+ 🔗 Reserve your spot: https://lu.ma/d610efoh
+
+See you there!
+
+"The one thing I did to land a Data Science job (with zero experience)”:
+
+𝐈 𝐛𝐮𝐢𝐥𝐭 𝐫𝐞𝐚𝐥 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐬… 𝐚𝐧𝐝 𝐟𝐥𝐞𝐱𝐞𝐝 𝐭𝐡𝐞𝐦 𝐢𝐧 𝐢𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬.
+
+2 years ago, 
+AI terrified me. It felt advanced, intimidating, impossible.
+But I broke the cycle. Started coding. Failed. Learned.
+
+𝐋𝐚𝐬𝐭 𝐰𝐞𝐞𝐤, 𝐈 𝐛𝐮𝐢𝐥𝐭 𝐭𝐡𝐢𝐬 𝐢𝐧 30 𝐦𝐢𝐧𝐮𝐭𝐞𝐬: 
+Resume Roast AI 🔥 : An app that roasts your resume so hard, even your LinkedIn bio would blush.
+
+𝐇𝐨𝐰 𝐢𝐭 𝐰𝐨𝐫𝐤𝐬 𝐢𝐧 3 𝐬𝐭𝐞𝐩𝐬:
+‣ Upload your resume (PDF or text) 
+‣ Google’s Gemini AI generates roasts (“Ah, ‘team player’… so you answer emails slowly?”)
+‣ AWS handles storage and deployment (AWS S3 , EC2 , configuring DNS etc..)
+
+Most devs overcomplicate projects. I open-sourced this to prove AI products are simpler than you think.
+
+𝐆𝐢𝐭𝐇𝐮𝐛 𝐫𝐞𝐩𝐨 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐞𝐧𝐭𝐬 👇 (Modify it, break it, rebuild it - no gatekeeping).
+
+𝐖𝐚𝐧𝐭 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝 𝐀𝐈 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐬 𝐭𝐡𝐚𝐭 𝐬𝐨𝐥𝐯𝐞 𝐫𝐞𝐚𝐥 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐬? I’m mentoring 13 students to: 
+✓ Ship production-ready AI apps 
+✓ Master cloud deployment (no more localhost)
+✓ Cut through tutorial paralysis. 
+(More details in the first comment)
+
+♻️ I know it's too to ask for... But reshare this post, so you can help thousands of people to kickstart their AI career!
+
+SQL Cheat Sheet (Super Short Version)
+
+1. Basics
+
+🔹️SELECT column1, column2 FROM table; → Retrieve data
+
+🔹️SELECT * FROM table; → Retrieve all columns
+
+🔹️DISTINCT → Remove duplicates
+
+🔹️ORDER BY column ASC/DESC; → Sort results
+
+🔹️LIMIT n; → Restrict number of results
+
+
+2. Filtering
+
+🔸️WHERE column = 'value'; → Filter data
+
+🔸️AND, OR, NOT → Combine conditions
+
+🔸️IN (value1, value2) → Match multiple values
+
+🔸️BETWEEN value1 AND value2 → Range filter
+
+🔸️LIKE 'pattern%' → Pattern matching
+
+🔸️IS NULL / IS NOT NULL → Handle null values
+
+
+3. Aggregation
+
+🔹️COUNT(*), SUM(column), AVG(column), MIN(column), MAX(column)
+
+🔹️GROUP BY column; → Group data
+
+🔹️HAVING condition; → Filter after aggregation
+
+
+4. Joins
+
+🔸️INNER JOIN → Matching rows in both tables
+
+🔸️LEFT JOIN → All rows from left + matching right
+
+🔸️RIGHT JOIN → All rows from right + matching left
+
+
+5. Modifying Data
+
+🔹️INSERT INTO table VALUES (...);
+
+🔹️UPDATE table SET column = value WHERE condition;
+
+🔹️DELETE FROM table WHERE condition;
+
+
+6. Creating Tables
+
+🔸️CREATE TABLE table_name (column1 TYPE, column2 TYPE);
+
+🔸️DROP TABLE table_name;
+
+
+If you want to practice these skills, join this 15 day SQL challenge to take this beyond thoery - https://lnkd.in/e5yUnnZb
+
+Follow me Hari for more such tips & hacks!
+
+♻️ Reshare to help your community
+
+"AI is killing jobs. Sht, man, sht."
+
+Nope, that’s the wrong mindset. You’re in 2025 - think like it.
+
+The job market isn’t looking for perfection. It’s hunting for scrappy problem-solvers who can bridge code and real-world impact.
+
+Here’s your cheat code: Solve tiny problems. Build in public. Stand out.
+
+2 AI Project Ideas to Build Right Now
+
+1️⃣ "The Interview Anxiety Destroyer" 🎙️
+
+‣ 𝐖𝐡𝐚𝐭 𝐢𝐭 𝐝𝐨𝐞𝐬: 
+Helps students practice interviews by letting them speak their answers aloud. Whisper transcribes it, GPT-4o gives instant feedback on clarity, conciseness, and cultural fit.
+
+‣ 𝐇𝐨𝐰 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝: 
+Use Whisper for speech-to-text, GPT-4o for analysis, and deploy with Modal in minutes.
+
+‣ 𝐖𝐡𝐲 𝐢𝐭’𝐬 𝐜𝐨𝐨𝐥: 
+It’s like having a personal interview coach in your pocket—and it actually works!
+
+2️⃣ "Micro-Mentorship Connector" 🤝
+
+‣ 𝐖𝐡𝐚𝐭 𝐢𝐭 𝐝𝐨𝐞𝐬: 
+Connects students with professionals for 15-min mentorship calls. Automatically generates session notes using Whisper + GPT summarization.
+
+‣ 𝐇𝐨𝐰 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝: 
+Use Whisper for transcription, GPT for summaries, and document your build process publicly to inspire others.
+
+‣ 𝐖𝐡𝐲 𝐢𝐭’𝐬 𝐜𝐨𝐨𝐥: 
+It’s not just a platform—it’s a movement to make mentorship accessible at scale.
+
+Need help building cool AI products like these? 𝐈'𝐦 𝐠𝐨𝐧𝐧𝐚 𝐡𝐞𝐥𝐩 13 𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬 to build & deploy AI projects end-to-end. Sign up here - https://lnkd.in/ee2v7Gv5
+
+Over the past 4 weeks, I've helped 4 dedicated teams to develop real-world AI products. Now, they're ready to showcase their products.
+
+Why Attend?
+- Discover Innovations: Experience AI innovations transforming industries.
+- Get ideas: Take inspiration for your next AI project.
+- Gain Insights: Learn about emerging trends and technologies.
+- Learn AI Product Development: Understand the process of ideating and building AI products.
+
+Don't miss this opportunity to engage with the future of AI. Special thanks to the mentors Venkata, Sohan & Mark who made this possible!
+
+Reserve your spot today - https://lu.ma/d610efoh
+🗓️ March 22nd - 10am EST (or) 7am PST (or) 7:30pm IST
+
+Dear International Student,
+We regret to inform you that despite your exceptional qualifications, we cannot proceed due to:
+
+🚫 Your 10 Kaggle projects ≠ "real-world experience"
+
+🚫 Your "Titanic Survival Model" ≠ "shipped product"
+
+Sincerely,
+
+Every Company You'll Apply To
+
+If that rejection made you smirk (or cry a little inside), I've got something for you.
+
+I found a way to gain real-world experience by building a real product in just 4 weeks.
+
+Workshop details here - https://lnkd.in/ei5iD3Z6
+
+Do you want to build an AI App like this in just 1 hour? (without writing any code)
+
+Watch my live demo here - https://lnkd.in/e9M5VpGN
+
+✈️ New Project Launched ✈️
+
+Introducing the AI Travel Guide! 
+
+This project leverages no code methods to provide users with personalized travel recommendations based on their destination. 
+
+So whether you're looking to bask in the sun or hoping to have a safari adventure, this tool has you covered.
+
+Here's the tools used:
+✅️ Gamma AI: Designed the user friendly, visually appealing landing page.
+✅️ Tally: Collected user destination data.
+✅️ Make.com: Connected the apps and automated the workflow to ensure smooth functionality.
+✅️ Gemini API: Generated unique must sees and activities to engage in based on the user's destination.
+✅️ Google Cloud Platform: Sent the dream destination directly and securely to the user's email address.
+
+Test out the AI Travel Guide yourself: https://lnkd.in/ePkmk3WE
+
+Special thanks to Hari Prasad Renganathan for the 1 hour course this morning! It really helped pass the time while traveling today. Can't wait to use these tools more in the future.
+
+✨️ 
+hashtag
+#NoCode 
+hashtag
+#AI 
+hashtag
+#TravelTech 
+hashtag
+#Automation 
+hashtag
+#GeminiAPI ✨️
+
+Ok, let’s do this. How long are you going to be intimidated by AI?
+
+It’s time.
+
+I’m conducting a free 1-hour masterclass on “How to Build an AI App”—the best part? No coding is required.
+
+But you have to promise me something. I don’t want this to be just a lecture. Promise me you’ll build your own AI app right after the session.
+
+If yes, see you in class this 🗓️ Saturday at 10 AM EST.
+
+RSVP using this link - https://lu.ma/p3dunxk0
+
+Share it with your community to motivate them as well 😉
+
+Wow, it's gonna be fun!
+
+Watch here - https://lnkd.in/e_VAD2qZ
+
+International Students, Don’t Miss This! 
+
+No one is talking about this… and it’s surprisingly simple!
+
+Tomorrow at 10 AM EST, I’m hosting a live session where I’ll show you how to build an AI app using ONLY no-code tools—no coding experience needed!
+
+--> RSVP now: https://lu.ma/p3dunxk0
+
+🔁 Share this with your friends & community—let’s make AI accessible to everyone!
+
+Imagine what an engineer can do with a solid idea and some time to spare!
+
+This is one of the best examples of that. Ritesh and his team started working on this idea. Now, they have a working product and have submitted their Chrome extension to the Chrome Web Store.
+
+Want to build real products like these?
+Join our April batch (we are closing in 7 days. Don't miss out) - https://lnkd.in/ei5iD3Z6
+
+🚀 Making LinkedIn Work for You—Not Against You! 🚀
+
+For the past few weeks, I’ve been building something close to my heart: Tenzor—a tool designed to make surfing LinkedIn effortless, insightful, and free from the FOMO that comes with overwhelming technical jargon.
+
+If you've ever scrolled through LinkedIn and felt lost in a sea of buzzwords, or struggled to keep up with insights that truly matter to you, Tenzor helps.
+
+🛠️ What is Tenzor?
+Tenzor simplifies how you consume content on LinkedIn by cutting through the noise and making it easy to understand, engage, and stay informed—without getting buried under unnecessary complexity.
+
+💡 Why am I building this?
+I’ve been there—spending hours deciphering posts, feeling like I’m missing out, and wishing for a way to browse LinkedIn without the pressure of keeping up with every technical nuance. That’s exactly what Tenzor aims to solve.
+
+🔥 MVP in Action! 🔥
+I’m sharing a sneak peek of how Tenzor works (video below 🎥). This is just the beginning—I’ll be refining features based on feedback and available resources. More updates soon
+
+I’d love to hear your thoughts!
+💬 What features would make LinkedIn more valuable for you?
+🚀 Would you use a tool like this to make networking and learning easier?
+.
+.
+.
+Let’s make LinkedIn a platform that works for us, not the other way around.
+
+If you find this relatable and have ideas or suggestions, don't be a stranger. Drop a hi and share your thoughts 💭
+
+Don't forget to join our waitlist here: https://lnkd.in/gB-NY2p9
+
+
+hashtag
+#building 
+hashtag
+#tenzor 
+hashtag
+#ai 
+hashtag
+#linkedin 
+hashtag
+#product
+
+Ok, let’s do this. How long are you going to be intimidated by AI?
+
+It’s time.
+
+I’m conducting a free 1-hour masterclass on “How to Build an AI App”—the best part? No coding required.
+
+But you have to promise me something. I don’t want this to be just a lecture. Promise me you’ll build your own AI app right after the session.
+
+If yes, see you in class this 🗓️ Saturday at 10 AM EST.
+
+RSVP here - https://lu.ma/p3dunxk0
+
+I'm planning to conduct a FREE 1-hour Masterclass on "Building an AI App" this weekend.
+
+(No coding experience needed)
+
+I know many of you find AI intimidating, but this hands-on project will be a valuable addition to your portfolio.
+
+Would this be something you'd be interested in? If yes, let me know in the comments 👇 and I'll move forward with the plan.
+
+I'll share the exact date and time soon!
+
+Make sure to follow me to get that update.
+
+2023: The Year of Layoffs
+2024: The Year of Uncertainty
+2025: The Year of Comeback
+
+The job market keeps shifting, and so should we. It’s not just about waiting for opportunities—it’s about adapting, learning, and positioning yourself for what’s next.
+
+Companies are hiring, but they’re looking for people who bring real impact.
+
+ Now is the time to:
+- Learn high-demand skills
+- Build projects that showcase your expertise
+- Network & stay visible
+
+The market will bounce back. The question is—will you be ready?
+
+If you're looking for job search strategies, career insights, or just some motivation, let’s connect!
+
+"AI is moving too fast. 
+LinkedIn feels overwhelming. 
+Should I even bother?"
+
+
+I hear this a lot. And honestly? I get it.
+
+The world of AI and product building can feel intimidating - new tools, complex jargon, and the constant pressure to keep up. But that’s exactly why I started teaching at MyRealProduct - to make this journey less scary and more doable.
+
+Yesterday, I received this message from one of the participants.
+
+This. This is what keeps me going.
+
+If you’ve ever felt the same way—intimidated, stuck, or just unsure where to start—I promise MyRealProduct is the place where you’ll actually build, not just watch.
+
+Apply now for April batch - https://lnkd.in/ei5iD3Z6
+
+Let’s make AI work for you, not against you
+
+You Know You’re a Data Scientist When... 
+
+🔹 You build a complex model... only to realize a simple SQL query would have worked.
+
+ 🔹 That “one small change” in production takes down the entire pipeline.
+
+ 🔹 You spend more time cleaning data than actually analyzing it.
+
+ 🔹 You Google the same pandas function every single day.
+
+ 🔹 Your stakeholders ask for “AI,” but they really just want a bar chart.
+
+ 🔹 Your family still thinks you work with "big computers and numbers."
+
+What’s your Data Scientist moment? Drop it in the comments! ⬇️
+
+Certificates – the biggest SCAM of the 21st century!
+
+Tell me something… how many certificates do you have after completing your 47th online course?
+
+Did it actually help you?!
+
+All these “online gurus” bait you by promising a certificate at the end of their course. And you think that is the value you get from online courses?
+
+At MyRealProduct, we do the opposite.
+You give us a certificate before starting the cohort—a Certificate of Commitment.
+
+The real outcome of our 4-week cohort? A solid product with hundreds of real users benefiting from it.
+
+Deal?
+
+Comment down your email 👇, and I'll send you more details on how to join this April cohort.
+
+Stop Taking Advice From People Who’ve Never Done It
+
+(Spoiler: Your 47th “How to Land a Tech Job” YouTube video won’t either.)
+
+Here’s what works now:
+Delete every “career hack” guide you bookmarked.
+
+Instead:
+- Build a functional product (not another tutorial clone)
+- Validate the product
+- Host it publicly (get hundreds of users)
+
+Why this works:
+- Companies aren’t hiring your knowledge.
+- They’re hiring your ability to solve.
+
+So stop bragging and start building.
+
+If you need help, check this out - https://lnkd.in/ee2v7Gv5
+
+We are international students...
+We navigate visa rules, job search stress, and cultural differences—yet still show up with a smile.
+
+We are international students...
+We translate our thoughts in real-time, write emails like native speakers, and still get told we need "better communication skills."
+
+We are international students...
+We juggle time zones to call family, miss festivals back home, and still find ways to celebrate with new friends.
+
+We are international students...
+We take risks, adapt, and push through uncertainty—because failure is not an option.
+
+🇺🇸🇬🇧🇨🇦To every international student out there: 
+You’re stronger than you think. Keep going.
+
+--
+Follow me Hari to navigate this international student journey with ease!
+
+Dear International Student,
+We regret to inform you that despite your exceptional qualifications, we cannot proceed due to:
+
+🚫 Your 10 Kaggle projects ≠ "real-world experience"
+🚫 Your "Titanic Survival Model" ≠ "shipped product"
+
+Sincerely,
+Every Company You’ll Apply To
+
+If that rejection made you smirk (or cry a little inside), I’ve got something for you.
+
+I found a way to gain real-world experience by building a real product in just 4 weeks.
+
+[Edit]
+Registration open! Check it out here - https://lnkd.in/ee2v7Gv5
+
+So… I broke some LinkedIn rules yesterday.
+
+I posted just a link to MyRealProduct.
+No emojis. No “Hey fam!” No 10-paragraph storytelling.
+
+𝐑𝐞𝐬𝐮𝐥𝐭?
+More clicks than when I tried to be “algorithm-friendly.”
+
+𝐖𝐡𝐲 𝐚𝐦 𝐈 𝐭𝐞𝐥𝐥𝐢𝐧𝐠 𝐲𝐨𝐮 𝐭𝐡𝐢𝐬?
+Because we’re all tired of pretending LinkedIn is a TED Talk stage and we’re the over-rehearsed speakers.
+
+But here’s the real kicker: If you’re job hunting, you know the feeling.
+
+You tweak your resume 47 times.
+You write cover letters that sound like Shakespeare (but no one reads).
+You overthink every LinkedIn post because What if HR sees this?
+
+And yet…
+
+The job you land will probably come from one simple connection or one bold move - not the 47th edit.
+
+𝐓𝐡𝐞 𝐥𝐞𝐬𝐬𝐨𝐧?
+Sometimes, less is more. But always be human, not a content bot.
+
+P.S. If you clicked the link yesterday, thank you. If you didn’t, it’s still there. No LinkedIn theater. Just the truth. Check it out here: https://lnkd.in/ewuAEupF
+
+The link that changes your life - https://lnkd.in/ee2v7Gv5
+
+That's it! That's the post :)
+
+Let’s play a game!
+
+𝐒𝐜𝐞𝐧𝐚𝐫𝐢𝐨: Final-round interview. The hiring manager asks:
+“Your profile says ‘international student’… what does that mean?”
+
+𝐖𝐫𝐨𝐧𝐠 𝐚𝐧𝐬𝐰𝐞𝐫: “I need sponsorship.”
+
+𝐑𝐢𝐠𝐡𝐭 𝐚𝐧𝐬𝐰𝐞𝐫:
+"It means I:
+- Juggled late-night calls with family, exams, and assignments across time zones.
+- Balanced job hunting, cooking, and a 20-hour part-time job—all at once.”
+
+𝐖𝐡𝐲 𝐝𝐨𝐞𝐬 𝐭𝐡𝐢𝐬 𝐦𝐚𝐭𝐭𝐞𝐫?
+- They want proof you can create value from chaos.
+- They want to see how you turn survival mode into solutions.
+
+𝐓𝐡𝐞 𝐬𝐚𝐦𝐞 𝐚𝐩𝐩𝐥𝐢𝐞𝐬 𝐭𝐨 𝐣𝐨𝐛 𝐡𝐮𝐧𝐭𝐢𝐧𝐠:
+- Build something that screams “hire me” louder than your accent.
+- Craft a story that turns “Why you?” into “Why not you?”
+
+This April, I’m helping 25 𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬 do exactly that—by 𝐛𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐚 𝐫𝐞𝐚𝐥 𝐩𝐫𝐨𝐝𝐮𝐜𝐭.
+
+No fluff. No theory. Just 4 weeks of:
+✔️ I coded this.
+✔️ I shipped this.
+✔️ I’m ready.
+
+Want in? 𝐃𝐫𝐨𝐩 𝐲𝐨𝐮𝐫 𝐞𝐦𝐚𝐢𝐥 𝐛𝐞𝐥𝐨𝐰 👇 I’ll DM you the details!
+
+Tools to learn to become a developer BEFORE 2024:
+
+- Python
+- JavaScript
+- GitHub
+- Docker
+- AWS / Azure / GCP
+
+
+Tools to learn to become a developer NOW:
+
+- ChatGPT
+- Claude AI
+- Bolt New
+- GitHub Copilot
+- Cursor AI
+
+
+Yes, I said it 👀
+
+Ever wondered why AI-generated content sounds like it was written by... well, a robot?
+
+I had the pleasure of tackling this exact challenge yesterday. I was invited as a speaker at the AICamp event, hosted at Microsoft NYC and sponsored by Google.
+
+The energy in the room was electric! We dove deep into the world of AI content creation and explored practical ways to make AI writing sound more human. The engagement and questions from the audience were incredible - clearly this is a pain point many of us share.
+
+What struck me most? 
+The diverse perspectives and creative solutions that emerged during our discussions. From founders to developers, everyone had unique insights to share.
+
+Did you miss the event? 
+
+👇 Drop a comment below with your biggest AI content creation challenge. Let's keep this conversation going!
+
+Junior Data Engineer: Let’s store this data in a SQL database.
+
+Mid-level Data Engineer: Let’s design a distributed data pipeline with Kafka, Spark, and Snowflake.
+
+Senior Data Engineer: Have we tried using a CSV file first?
+
+🎤 Excited to speak at the AI Meetup in NYC tomorrow about transforming AI-generated content into engaging, human-like material!
+
+Ever wondered how to make AI content feel more authentic? 
+
+Join me at Microsoft NYC as I break down my proven workflow for creating high-quality content that resonates with your audience.
+
+What you'll learn:
+- Practical techniques to enhance AI-generated content
+- Real-world examples and strategies
+- Tips to scale your content while maintaining quality
+- How to make AI complement your creativity, not replace it
+
+Details:
+📍 Microsoft NYC - Times Square
+⏰ Feb 19, 6:00 PM EST
+🍕 Food and networking included
+
+RSVP here: https://lnkd.in/eefAJNGU
+
+(Thank you for organizing this AICamp)
+
+Drop a comment if you're joining - would love to connect with fellow tech enthusiasts!
+
+Data Science isn't SQL.
+Data Science isn't Pandas.
+Data Science isn't Power BI.
+Data Science isn't Jupyter Notebooks.
+Data Science isn't Tableau.
+
+
+It's building Neural Network models to predict the next 3 years of data, developing a custom React front-end, and connecting it to a FastAPI backend - while the business just asks for an Excel export of the same 👀
+
+Ever wondered how LLMs work?
+
+It’s often called a black box… but not anymore!
+
+I came across this site that helps you visualize how LLMs work: https://bbycroft.net/llm
+
+If a picture is worth a thousand words, imagine having an image, video animation, text, and a detailed description—all in one place.
+
+🔁 Reshare this with someone who would love to see it!
+
+Follow me Hari Prasad for more exciting updates about AI!
+
+𝐋𝐚𝐭𝐞 𝐏𝐨𝐬𝐭 - 𝐁𝐮𝐭 𝐚 𝐆𝐫𝐞𝐚𝐭 𝐒𝐭𝐚𝐫𝐭 𝐭𝐨 𝐒𝐚𝐭𝐮𝐫𝐝𝐚𝐲 𝐰𝐢𝐭𝐡 Hari Prasad Renganathan!
+
+From my job search phase till now I have been followed many influencers on LinkedIn, who has struggled, hustled and made their space in US corporate markets and following them I also did the same but I was lucky to have their guidance and contents they shared so that I do not make any mistakes. For a long time, I wanted to connect with a 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐩𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥, and this time, I finally got the opportunity and had a great conversation with Hari Prasad Renganathan on Saturday, where he took the time to help me understand the data science industry and how to prepare for corporate roles.
+
+His experience and knowledge about 𝐩𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧 𝐟𝐨𝐫 𝐝𝐚𝐭𝐚 𝐬𝐜𝐢𝐞𝐧𝐜𝐞 𝐫𝐨𝐥𝐞𝐬, 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐢𝐧𝐠 𝐭𝐡𝐞 𝐫𝐢𝐠𝐡𝐭 𝐬𝐤𝐢𝐥𝐥𝐬, 𝐦𝐚𝐤𝐢𝐧𝐠 𝐭𝐡𝐞 𝐦𝐨𝐬𝐭 𝐨𝐟 𝐞𝐯𝐞𝐫𝐲 𝐨𝐩𝐩𝐨𝐫𝐭𝐮𝐧𝐢𝐭𝐲, 𝐚𝐧𝐝 𝐮𝐬𝐢𝐧𝐠 𝐀𝐈 𝐢𝐧 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬 helped answer many of my questions. We also discussed the challenges students face during job searches. I’ll be putting together a document to share key strategies to keep in mind while job hunting. Stay tuned!
+
+He also helped me understand how I can use new technologies in my current job and how to think in a different way to do better at my company. This will help me learn more and gain better experience than others.
+
+𝑰'𝒅 𝒍𝒊𝒌𝒆 𝒕𝒐 𝑻𝑯𝑨𝑵𝑲 𝒀𝑶𝑼, Hari Prasad Renganathan 𝒇𝒐𝒓 𝒈𝒊𝒗𝒊𝒏𝒈 𝒎𝒆 𝒚𝒐𝒖𝒓 𝒕𝒊𝒎𝒆 𝒐𝒏 𝑺𝒂𝒕𝒖𝒓𝒅𝒂𝒚 𝑴𝒐𝒓𝒏𝒊𝒏𝒈 𝒂𝒏𝒅 𝒔𝒉𝒂𝒓𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒕𝒉𝒐𝒖𝒈𝒉𝒕𝒔 𝒂𝒏𝒅 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆𝒔.
+
+Thank you, again for your time! Hari Prasad Renganathan
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+hashtag
+#socialmedia 
+hashtag
+#linkedincommunity 
+hashtag
+#networks 
+hashtag
+#linkedIn 
+hashtag
+#facebook 
+hashtag
+#instagram 
+hashtag
+#unchanged_boii 
+hashtag
+#yashramakantmishra 
+hashtag
+#YRM 
+hashtag
+#liveitjamsan 
+hashtag
+#analyst 
+hashtag
+#datascientist 
+hashtag
+#businessintelligence 
+hashtag
+#projects 
+hashtag
+#experiences 
+hashtag
+#sharing 
+hashtag
+#corporates 
+hashtag
+#jobs 
+hashtag
+#hiring 
+hashtag
+#jobstrategies 
+hashtag
+#strategist 
+hashtag
+#python 
+hashtag
+#sql 
+hashtag
+#datavisualization 
+hashtag
+#postings 
+hashtag
+#postingoftheday 
+hashtag
+#connectwithus 
+hashtag
+#students 
+hashtag
+#OPT 
+hashtag
+#CPT 
+hashtag
+#interns 
+hashtag
+#postoftheweek 
+hashtag
+#learnings 
+hashtag
+#saturday 
+hashtag
+#weekend 
+hashtag
+#influencer
+
+To get a job, we need experience. But to get experience, we need a job.
+
+
+It's like the ultimate chicken and egg situation but with resumes, haha.
+
+A never-ending loop for entry candidates. I remember seeing a job opening asking for 10 years of experience for a Gen AI role and 5 years of experience for a junior Data Analyst. 
+
+If you're planning to come out of this loop, you gotta be different and stand out from the crowd!
+
+As an international student, I know landing your first tech job is tough without relevant experience.
+
+𝐒𝐨 𝐡𝐞𝐫𝐞'𝐬 𝐚 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧: Instead of building projects, try to build products. 
+
+𝐇𝐞𝐫𝐞'𝐬 𝐭𝐡𝐞 𝐩𝐥𝐚𝐧:
+
+- You'll work in small groups (no more solo Titanic projects!)
+- Build real products people can actually use
+
+If you're ready to break out of the experience loop and build something that matters, 𝐬𝐢𝐠𝐧 𝐮𝐩 𝐡𝐞𝐫𝐞: https://lnkd.in/dTDzymZE
+
+IYKYK :)
+
+Excel is a Date-mist, lol
+
+𝐁𝐮𝐢𝐥𝐝 𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬, 𝐍𝐨𝐭 𝐉𝐮𝐬𝐭 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬!
+
+Spring enrollment closes tomorrow—don’t miss out!
+
+Ever thought about creating your own product, launching it, and seeing real users engage with it? That’s exactly what we’ll help you do.
+
+This time, we’re excited to have Mark Eltsefon, Staff Data Scientist at Meta and a top Data Science Career Coach on LinkedIn, guiding you through the journey. With his mentorship, you won’t just learn—you’ll build alongside industry experts.
+
+Grab your spot before it’s too late! 👉 https://myrealproduct.com
+
+Life's Irony…..The Grass Is Always Greener On The Other Side! 🌱
+
+People in India: My friend in US is living his life!
+International student in US: I wish I could go home...
+
+Student: I wish I graduate and get a job ASAP!
+Working professional: I wish I could go back to student life...
+
+Fresh Graduate: Can't wait to climb the corporate ladder!
+Senior Manager: Miss those days when I had zero responsibilities...
+
+Startup Founder: Wish I had the stability of a corporate job…
+Corporate Employee: If only I had started my own company…
+
+Isn't it fascinating how we're all chasing something while someone else is dreaming about what we already have? 🤔
+
+Opportunity for Data Science/ Software Engineer Aspirants!
+
+As an International student, getting your first tech job is difficult.
+
+That's why I've talked a lot about the importance of non-cliché projects before on my YouTube channel and in my previous posts. It's great to see that many of you have started working on them and building your portfolios accordingly.
+
+But still...
+
+A lot of you have texted me saying you're stuck coming up with ideas. So, I came up with a solution to resolve this.
+
+𝐋𝐞𝐭'𝐬 𝐧𝐨𝐭 𝐛𝐮𝐢𝐥𝐝 𝐩𝐫𝐨𝐣𝐞𝐜𝐭𝐬. 𝐈𝐧𝐬𝐭𝐞𝐚𝐝, 𝐥𝐞𝐭'𝐬 𝐛𝐮𝐢𝐥𝐝 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐬.
+
+The fun part? Let's do it together. Here's what we're gonna do:
+
+- I’m going to pair you up in groups.
+- Stuck with the Titanic project? House price prediction? No way. Let's build real products. Deploy them and launch them so the public can benefit.
+- I’m gonna work with you throughout this entire journey.
+
+Ready? Wanna be a part of it?
+
+Comment down your email ID👇, and I'll send you a link to sign up.
+
+Dear Employers, 
+Please DON'T HIRE International Students!
+🇺🇸🇬🇧🇨🇦
+
+- They are not ambitious.
+All they did was leave everything behind, move across the world, and start over for a better future.
+
+- They aren’t good communicators.
+They just happen to speak 2–3 languages fluently.
+
+- They can’t multi-task.
+Except for juggling coursework, exams, job hunting, networking, part-time jobs, and staying connected with family across time zones.
+
+- They aren’t adaptable.
+They only adjust to a new country, culture, education system, and work environment—nothing major.
+
+- They lack resilience.
+Handling visa stress, job rejections, and endless uncertainty? That’s nothing.
+
+
+So yes, totally avoid them. Unless, of course, you want someone who’s hardworking, adaptable, and knows how to hustle 🙌
+
+BTW, if you are an international student, looking to build your profile by building a real product, don't miss this opportunity- https://myrealproduct.com/
+
+The best and most straightforward way to break the experience paradox!
+
+I don’t know why no one is talking about this.
+
+If you are:
+
+- An international student
+
+- Came to your master’s right after undergrad
+
+- Have no experience
+
+- Getting rejected for not having experience
+
+𝐘𝐨𝐮 𝐤𝐧𝐨𝐰 𝐞𝐱𝐚𝐜𝐭𝐥𝐲 𝐰𝐡𝐚𝐭 𝐩𝐚𝐫𝐚𝐝𝐨𝐱 𝐈’𝐦 𝐭𝐚𝐥𝐤𝐢𝐧𝐠 𝐚𝐛𝐨𝐮𝐭.
+
+The way to gain experience is not by looking outside. You have the basic skills; you might even have an idea.
+
+So why not build your own product by the end of the year? Or why not help an early-stage founder build one?
+
+What’s stopping you?
+
+That’s exactly what I did. And you know what? I had a lot to talk about during my interviews!
+
+If you want to build your first real product, join this workshop and build alongside a team assigned to you. 
+
+Comment down 👇 your email & I’ll send it to your inbox by tomorrow.
+
+🔁Reshare this with your community to help them get their first job!
+
+Plot twist: Remember my post about NOT using AI for LinkedIn content?
+
+insert dramatic pause
+
+You know, the one where I boldly claimed:
+"Just used AI to write my LinkedIn post... said no successful content creator ever"
+
+Well... 🥁
+
+That post was written by AI.
+
+Oh, the irony! There I was, preaching about authenticity while an AI crafted the perfect sermon about not using AI. It's like wearing a "I hate fast food" t-shirt while eating a Big Mac.
+
+The best part? You all loved it. The comments section was filled with "So true!" and "Couldn't agree more!"
+
+So what's the real lesson here?
+
+Maybe it's not about whether you use AI or not. Maybe it's about knowing how to use it right. Like having a ghostwriter who knows your voice so well, they can write your autobiography.
+
+And yes, this post is human-written.
+(Or is it? 🤔)
+
+What do you think - does it matter who (or what) writes the content as long as it resonates with the audience?
+
+Let's hear your thoughts below!
+
+Follow me Hari for more plot twists and LinkedIn experiments 😉
+
+"Just used AI to write my LinkedIn post!"
+
+...said no successful content creator ever.
+
+Here's why AI-written posts fail:
+- They lack your authentic voice
+- They miss personal experiences & stories
+- They sound robotic (ironically!)
+- Everyone else is using them (your feed probably has 10 AI posts right now)
+
+The result? Your audience can smell the AI from miles away.
+
+I learned this the hard way. After experimenting with AI tools, my engagement dropped. Why? Because my followers couldn't connect with the perfect but soulless content.
+
+Real engagement comes from real stories, real failures, and real wins.
+
+Want to stand out on LinkedIn?
+Write from your heart, not from an algorithm.
+
+What's your take on AI-written content? Drop your thoughts below 👇
+
+What are the ways to break this loop? 🥶
+
+ - Projects?
+ - Certifications?
+ - Internships?
+ - Adding fake experience?
+ - Getting a master's degree?
+ - Joining consultancies?
+
+Tell me—which ones have you tried or are currently trying? 👇
+
+If you’ve been following me, you know the approach I recommend: Build your own product and show impact. If you want help with that, check this out – https://myrealproduct.com
+
+Dear Founders,
+What if you could build your first MVP in just 4 weeks?
+What if you could turn that AI idea into a real product?
+What if you could do it for FREE?
+
+Sounds too good to be true… What's the catch?
+
+There’s no catch! 
+
+I know many students with strong AI skills who are eager for real-world experience. I’ll be guiding them in building real products. I’ve helped 500+ students do this successfully. They gain hands-on experience and exposure, and you get a working prototype. 
+
+Win-win.
+
+If you're a founder with an idea that needs to be turned into an MVP within 4 weeks, comment below or DM me or Email me @ hr2514@columbia.edu
+
+Let’s talk!
+
+👇 Tag that founder you know who can benefit from this.
+
+-------
+P.S.: If you’re an international student and want to build a real product, join the Spring workshop here: https://lnkd.in/e6uzKFi7
+
+Dear Data Aspirants,
+
+Just dropped a comprehensive Pandas guide that'll take you from zero to hero!
+
+Ever felt overwhelmed looking at those massive datasets? I remember when I first started, I'd spend hours just trying to load a CSV file correctly. Now? I can wrangle data like a pro, and you can too!
+
+Here's what's inside this power-packed guide:
+
+ - The bread and butter: DataFrames and Series
+ - Importing data (without the headaches!)
+ - Data manipulation tricks I use daily
+ - Analysis techniques that'll impress your team
+ - Visualization secrets to make your insights pop
+ - Time series magic that'll save you hours
+ - Advanced features most people don't know about
+ - Real-world examples you can use today
+
+The best part? I've broken everything down into bite-sized chunks. 
+
+No fancy jargon, just practical stuff you can use right away.
+
+💡 Pro tip: Start with the basics and work your way up. Rome wasn't built in a day, and neither is data expertise!
+
+🔁Repost this if you find this helpful
+
+✅Follow me Hari Prasad Renganathan for daily updates regarding Data, AI & other fun stuff
+
+Breaking AI News: A $50 Model Just Beat OpenAI's o1!
+
+Think you need millions to build cutting-edge AI? Think again! 
+
+Stanford and UW researchers just flipped the script with their new model 's1'.
+
+Here's what's mind-blowing:
+- Built with just $50 in cloud credits
+- Trained in 26 minutes (yes, minutes!)
+- Outperformed OpenAI's o1 by 27% on math problems
+- Used only 1,000 carefully selected questions
+
+The secret sauce? 
+A brilliant technique called "budget forcing" - proving that constraints breed innovation. Instead of throwing money at the problem, they got creative with resources.
+
+This isn't just about building a better model. It's about democratizing AI research. No more "only big tech can innovate" narrative. The future of AI might not be in massive data centers, but in clever solutions from resourceful teams.
+
+What's even better? It's open-source! Anyone can build upon this breakthrough.
+
+This reminds me of a quote: "Innovation is not about resources, but resourcefulness."
+
+As an international student, it's a long journey from "I wish I had stayed home" to "I'm glad I made this decision."
+
+- Struggling with coursework & assignments
+- Facing financial challenges without a part-time job
+- Managing cooking & household chores
+- Dealing with thousands of rejections
+
+The life of an international student is NOT easy!
+
+But sharing and supporting each other can make the journey smoother. That’s why I’m hosting a FREE live webinar with fellow international students to help you navigate this path.
+
+Meet your panelists:
+
+Venkata Sai – UConn Alum | Lead Data Analyst | 100k+ on LinkedIn
+Sohan Sethi – UIC Alum | Business Analyst | Co-founded 2 startups by 20
+Hari Prasad (myself) – Columbia Alum | Data Scientist | YouTuber
+
+Our goal with this webinar is to share how we did it and answer all your burning questions.
+
+📅 Mark your calendars: Feb 8 - 10:30 am ET/ 7:30am PT
+RSVP here – https://lu.ma/nmlul88y
+
+Looking forward to seeing you live soon!
