@@ -4,6 +4,17 @@ import time
 import pandas as pd
 import os
 from urllib.parse import parse_qs
+import boto3
+from langchain.llms.bedrock import Bedrock
+from langchain.chains import ConversationChain
+from langchain.memory import ConversationBufferMemory
+import json
+from dotenv import load_dotenv
+
+load_dotenv()
+
+session = boto3.Session(profile_name="personal", region_name="us-east-1")
+bedrock = boto3.client("bedrock-runtime")
 
 # Setup page configuration
 st.set_page_config(
@@ -71,6 +82,40 @@ def response_generator(user_name):
         yield word + " "
         time.sleep(0.05)
 
+def llama2_model():
+    llm = Bedrock(
+        model_id="meta.llama3-70b-instruct-v1:0",
+        model_kwargs={'max_gen_len': 512}
+    )
+    return llm
+
+def call_langchain_with_chat_memory(chat_history, user_input):
+    # Initialize LLM and memory
+    llm = llama2_model()
+    memory = ConversationBufferMemory(return_messages=True)
+    
+    # Load previous chat history
+    for message in chat_history:
+        if message["role"] == "user":
+            memory.chat_memory.add_user_message(message["content"])
+        elif message["role"] == "assistant":
+            memory.chat_memory.add_ai_message(message["content"])
+    
+    # Create conversation chain
+    conversation = ConversationChain(
+        llm=llm,
+        memory=memory,
+        verbose=False
+    )
+    
+    # Generate response
+    response = conversation.predict(input=user_input)
+    
+    # Stream response word by word
+    for word in response.split():
+        yield word + " "
+        time.sleep(0.05)
+
 # Get creator from URL query parameter
 creator_username = st.query_params.get("creator", None)
 
@@ -121,7 +166,7 @@ if creator_username:
         
             # Display assistant response in chat message container
             with st.chat_message("assistant"):
-                response = st.write_stream(response_generator(user_name))
+                response = st.write_stream(call_langchain_with_chat_memory(st.session_state.messages, prompt))
             # Add assistant response to chat history
             st.session_state.messages.append({"role": "assistant", "content": response})
             
@@ -132,40 +177,3 @@ if creator_username:
         st.error(f"Creator '{creator_username}' not found.")
         if st.button("Back to Home"):
             st.switch_page("main.py")
-else:
-    # Creator selection UI
-    col1, col2 = st.columns([5, 1])
-    with col1:
-        st.title("Chat with AI Clones")
-    with col2:
-        if st.button("Home"):
-            st.switch_page("main.py")
-    
-    st.write("Choose a creator to chat with:")
-    
-    try:
-        creators_df = pd.read_csv("data/creators.csv")
-        
-        # Display available creators
-        for _, creator in creators_df.iterrows():
-            col1, col2 = st.columns([3, 1])
-            with col1:
-                st.write(f"### {creator['name']}")
-            with col2:
-                if st.button("Chat", key=f"chat_{creator['username']}"):
-                    st.query_params["creator"] = creator['username']
-                    st.rerun()
-    except Exception as e:
-        st.error(f"Error loading creators: {e}")
-    
-    # Add a form to directly enter a username
-    with st.form("username_form"):
-        input_username = st.text_input("Or enter username directly")
-        submit_button = st.form_submit_button("Go to chat")
-        
-        if submit_button and input_username:
-            st.query_params["creator"] = input_username
-            st.rerun()
-    
-    if st.button("Back to Home"):
-        st.switch_page("main.py") 
